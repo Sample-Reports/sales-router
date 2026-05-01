@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/home",
-      "destination": "https://sales-portfolio.vercel.app"
+      "destination": "https://sales-portfolio-uk7u.vercel.app"
     },
     {
       "source": "/home/(.*)",
-      "destination": "https://sales-portfolio.vercel.app/$1"
+      "destination": "https://sales-portfolio-uk7u.vercel.app/$1"
     }
   ]
 }
