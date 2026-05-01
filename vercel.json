@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/home",
+      "destination": "https://sales-portfolio.vercel.app"
+    },
+    {
+      "source": "/home/(.*)",
+      "destination": "https://sales-portfolio.vercel.app/$1"
+    }
+  ]
+}
