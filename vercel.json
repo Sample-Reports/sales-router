@@ -7,22 +7,6 @@
     {
       "source": "/home/(.*)",
       "destination": "https://sales-portfolio-mu.vercel.app/$1"
-    },
-    {
-      "source": "/insights/aarp",
-      "destination": "https://sales-dashboards-qh2e.vercel.app/insights/aarp"
-    },
-    {
-      "source": "/insights/aarp/(.*)",
-      "destination": "https://sales-dashboards-qh2e.vercel.app/insights/aarp/$1"
-    },
-    {
-      "source": "/insights/attr",
-      "destination": "https://sales-dashboards-qh2e.vercel.app/insights/attr"
-    },
-    {
-      "source": "/insights/attr/(.*)",
-      "destination": "https://sales-dashboards-qh2e.vercel.app/insights/attr/$1"
     }
   ]
 }
