@@ -1,0 +1,9 @@
+{
+  "name": "share-link-router",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static router repo augmented with Vercel Edge Middleware for time-boxed share links.",
+  "dependencies": {
+    "@vercel/edge": "^1.2.1"
+  }
+}
