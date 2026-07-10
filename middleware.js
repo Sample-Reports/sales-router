@@ -68,8 +68,10 @@ export default async function middleware(request, context) {
   context.waitUntil(logView(supabaseUrl, supabaseKey, token, ipHash, request));
 
   // Internal rewrite. URL bar stays at /s/<token>.
+  const TIER_BASE = { insights: '/IMC', prinsights: '/PR', sales: '/Sales' };
+  const base = TIER_BASE[tier] || '/IMC';
   const target = new URL(url);
-  target.pathname = `/IMC/${share.category}/${share.slug}`;
+  target.pathname = `${base}/${share.category}/${share.slug}`;
   return rewrite(target);
 }
 
