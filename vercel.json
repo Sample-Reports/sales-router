@@ -8,5 +8,18 @@
       "source": "/home/(.*)",
       "destination": "https://sales-portfolio-mu.vercel.app/$1"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "sales.infovisionsocial.com"
+        }
+      ],
+      "destination": "https://sales.infovisionintelligence.com/$1",
+      "permanent": true
+    }
   ]
 }
